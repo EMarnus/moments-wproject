@@ -4,7 +4,7 @@ import { Link, useHistory } from "react-router-dom/cjs/react-router-dom";
 import { axiosRes } from "../../api/axiosDefaults";
 import { Avatar } from "../../components/Avatar";
 import { MoreDropdown } from "../../components/MoreDropdown";
-import { useCurrentUser } from "../../context/CurrentUserContext";
+import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import styles from "../../styles/Post.module.css";
 
 export const Post = (props) => {
